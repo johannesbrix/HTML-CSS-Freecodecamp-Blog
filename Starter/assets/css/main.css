@@ -154,11 +154,11 @@ body.light-theme {
 }
 
 .btn{
-    cursor: pointer; /* get appearance that it is clickable */
+    cursor: pointer;
 }
 
-.list-link:hover, 
-.btn:hover, 
+.list-link:hover,
+.btn:hover,
 .btn:hover span{
     color: var(--light-color);
 }
@@ -183,7 +183,7 @@ body.light-theme {
 .menu.activated{
     box-shadow: 1px 1px 1rem var(--transparent-light-color);
     opacity: 1;
-    transform: scale(1); 
+    transform: scale(1);
 }
 
 .menu-toggle-icon.activated .open-menu-icon{
